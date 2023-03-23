@@ -1,0 +1,125 @@
+.testimonial-area{
+  padding: 100px 0;
+}
+
+.testimonial-area > .container{
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonial-area > .container > .header{
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.testimonial-area > .container > .header > .title{
+  margin-bottom: 39px;
+  text-align: center;
+}
+
+.testimonial-area > .container > .header > .title > h3{
+  margin: 0;
+  font-size: 38px;
+  font-weight: 400;
+  color: #001D38;
+}
+.testimonial-area > .container > .article{
+display: flex;
+align-items: center;
+}
+
+.testimonial-area > .container > .article > .carousel > .block{
+  width: 1110px;
+}
+
+.testimonial-area > .container > .article > .carousel > .block > .content{
+  width: 1140px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.testimonial-area > .container > .article > .carousel > .block > .content > .icon{
+  position: relative;
+  border-radius: 50%;
+  width: 228px;
+  height: 228px;
+}
+
+.testimonial-area > .container > .article > .carousel > .block > .content > .icon > .quote-icon{
+  position: absolute;
+  display: flex;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: #00D363;
+  color: #ffffff;
+  right: 0;
+  bottom: 0;
+}
+
+.testimonial-area > .container > .article > .carousel > .block > .content > .icon > .quote-icon > i{
+  font-size: 30px;
+  display: flex;
+  margin: auto;
+}
+
+.testimonial-area > .container > .article > .carousel > .block > .content > .info{
+  padding: 0 15px 0 66px;
+}
+
+.testimonial-area > .container > .article > .carousel > .block > .content > .info > p{
+  font-size: 18px;
+  color: #040E27;
+  line-height: 32px;
+  margin-bottom: 18px;
+  margin-top: 0;
+}
+
+.testimonial-area > .container > .article > .carousel > .block > .content > .info > span{
+  color: #7A838B;
+  font-size: 16px;
+  font-weight: 550;
+  display: block;
+}
+
+.testimonial-area > .container > .article > .nav-buttons > div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
+
+  position: inherit;
+
+  width: 50px;
+  height: 50px;
+
+  background: rgba(10, 140, 255, 0.1);
+  color: #0A8CFF;
+
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.testimonial-area > .container > .article > .nav-buttons > div:hover{
+  color: #ffffff;
+  background-color: #0A8CFF;
+  transition: 0.3s;
+}
+
+.testimonial-area > .container > .article > .nav-buttons > .left-button{
+  margin-top: 30px; 
+}
+
+.testimonial-area > .container > .article > .nav-buttons > .left-button > i{
+  position: relative;
+  top: 0;
+}

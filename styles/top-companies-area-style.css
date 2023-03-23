@@ -1,0 +1,119 @@
+.top-companies-area{
+  background-color: #F5F7FA;
+  padding-bottom: 70px;
+}
+
+.top-companies-area > .container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-companies-area > .container > .header{
+  margin-bottom: 39px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-companies-area > .container > .header > div{
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.top-companies-area > .container > .header > .title > h3{
+  font-size: 38px;
+  font-weight: 400;
+  color: #001D38;
+  /* position: relative; */
+  margin: 0;
+  text-transform: capitalize;
+  line-height: 1.2em;
+}
+
+.top-companies-area > .container > .header > .button > div{
+  text-align: right;
+}
+
+.top-companies-area > .container > .header > .button > div > a{
+  text-transform: capitalize;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 11px 29px 13px;
+  font-size: 16px;
+  font-weight: 550;
+  text-decoration: none;
+  color: #00D363;
+  border: 1px solid #00D363;
+  border-radius: 5px;
+}
+
+.top-companies-area > .container > .header > .button > div > a:hover{
+  background-color: #00D363;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.top-companies-area > .container > .tab-sheet{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-companies-area > .container > .tab-sheet > div{
+  max-width: 25%;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.top-companies-area > .container > .tab-sheet > div > .single-company{
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.top-companies-area > .container > .tab-sheet > div > .single-company > .icon{
+  width: 82px;
+  height: 82px;
+  background: #F5F7FA;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.top-companies-area > .container > .tab-sheet > div > .single-company > .icon{
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+.top-companies-area > .container > .tab-sheet > div > .single-company > a{
+  text-decoration: none;
+
+}
+
+.top-companies-area > .container > .tab-sheet > div > .single-company > a > h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0 18px;
+  color: #191d34;
+}
+
+.top-companies-area > .container > .tab-sheet > div > .single-company > p{
+  font-size: 16px;
+  color: #AAB1B7;
+  margin: 0;
+  font-weight: 400;
+}
+
+.top-companies-area > .container > .tab-sheet > div > .single-company > p > span{
+  background: #E6F3FF;
+  color: #0A8CFF; 
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 17px;
+  border-radius: 5px;
+  margin-right: 10px;
+}

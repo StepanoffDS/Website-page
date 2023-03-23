@@ -1,0 +1,194 @@
+.job-listing-area{
+  background: #F5F7FA;
+  padding-bottom: 80px;
+}
+
+.job-listing-area > .container{
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.job-listing-area > .container > .header{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.job-listing-area > .container > .header > .title{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 50%;
+}
+
+.job-listing-area > .container > .header > .title > h3{
+  text-transform: capitalize;
+  margin: 0;
+  line-height: 1.2em;
+  font-size: 38px;
+  font-weight: 400;
+  color: #001D38;
+  position: relative;
+  z-index: 0;
+}
+
+.job-listing-area > .container > .header > .button{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 50%;
+  text-align: right;
+}
+
+.job-listing-area > .container > .header > .button > a{
+  text-transform: capitalize;
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 11px 29px 13px;
+  font-size: 16px;
+  font-weight: 550;
+  border-radius: 5px;
+  color: #00D363;
+  border: 1px solid #00D363;
+  background: transparent;
+
+}  
+
+.job-listing-area > .container > .header > .button > a:hover{
+  color: #ffffff;
+  background: #00D363;
+  transition: 0.3s;
+}  
+
+.job-listing-area > .container > .tab-sheet {
+  margin: 50px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job-listing-area > .container > .tab-sheet > div {
+  padding: 0 15px;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content {
+  display: flex;
+  padding: 30px;
+  margin: 0 0 12px 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #ffffff;
+  justify-content: space-between;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .description{
+  align-items: center;
+  display: flex;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .description > .icon{
+  float: left;
+  width: 82px;
+  height: 82px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  background-color: #F5F7FA;
+  padding: 10px;
+  margin-right: 25px;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .description > .icon > img{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .description > .job-content{
+  display: inline-block;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .description > .job-content > a{
+  text-decoration: none;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .description > .job-content > a > h4{
+  text-transform: capitalize;
+  color: #191d34;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .description > .job-content > .links-location > .location{
+  display: inline-block;
+  margin: 0 50px 0 0;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .description > .job-content > .links-location > .location > p{
+  margin: 0;
+  font-size: 16px;
+  color: #AAB1B7;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .application{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .application > .button-section > .heart-mark{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #EFFDF5;
+  border-radius: 5px;
+  color: #00D363;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .application > .button-section > .heart-mark:hover{
+  background-color: #00D363;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+
+.job-listing-area > .container > .tab-sheet > div > .content > .application > .button-section > .button{
+  background-color: #00D363;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 11px 27px;
+  font-weight: 550;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .application > .button-section > .button:hover{
+  background-color: transparent;
+  border-color: #00D363;
+  color: #00D363;
+  transition: 0.3s;
+}
+
+.job-listing-area > .container > .tab-sheet > div > .content > .application > .data > p{
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+  color: #7A838B;
+}

@@ -1,0 +1,90 @@
+.job-searching-area{
+  position: relative;
+  padding: 116px 0;
+  background-color: #2B9BFF;
+  z-index: 0;
+}
+
+.job-searching-area.overlay::before{
+  background-color: #0A8CFF;
+  opacity: 0.8;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.overlay::before{
+  position: absolute;
+  content: "";
+}
+
+.job-searching-area::after{
+  background-image: url(../img/job/1.png);
+  width: 50%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.job-searching-area > .container{
+  max-width: 1140px;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.job-searching-area > .container > div{
+  margin-left: 8.3%;
+}
+
+.job-searching-area > .container > div > .searching-text{
+  position: relative;
+  z-index: 8;  
+}
+
+.job-searching-area > .container > div > .searching-text > h3{
+  font-size: 38px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 0 8px;
+}
+
+.job-searching-area > .container > div > .searching-text > p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 12px 0 30px;
+}
+
+.job-searching-area > .container > div > .searching-text > a{
+  background-color: #00D363;
+  color: #ffffff;
+  display: inline-block;
+  padding: 13px 29px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 550;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.job-searching-area > .container > div > .searching-text > a:hover{
+  color: #00D363;
+  border: 1px solid #00D363;
+  background: transparent;
+  transition: 0.3s;
+}

@@ -1,0 +1,122 @@
+.popular-category-area{
+  background-color: #F5F7FA;
+  padding: 100px 0;
+}
+
+.popular-category-area > .container {
+  width: 100%;
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.popular-category-area > .container > .header{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 39px;
+}
+
+.popular-category-area > .container > .header > h3{
+  font-size: 38px;
+  font-weight: 400;
+  color: #212529;
+  position: relative;
+  z-index: 0;
+  margin: 0;
+}
+
+.popular-category-area > .container > .tab-sheet{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.popular-category-area > .container > .tab-sheet > div{
+  max-width: 25%;
+  flex: 0 0 25%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.popular-category-area > .container > .tab-sheet > div > div{
+  background-color: #ffffff;
+  border-radius: 5px; 
+  padding: 38px 25px;
+  border: 1px solid transparent;
+  margin-bottom: 30px; 
+  position: relative;
+}
+
+.popular-category-area > .container > .tab-sheet > div > div:hover{
+  border-color: #B2F2D0;
+  transition: 0.3s;
+}
+
+.popular-category-area > .container > .tab-sheet > div > div > a{
+  text-decoration: none;
+}
+
+.popular-category-area > .container > .tab-sheet > div > div > .visible{
+  position: absolute;
+  top: 0;
+  padding: 38px 61px 64px 25px ;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+}
+
+.popular-category-area > .container > .tab-sheet > div > div > .visible > h4{
+  color: #191d34;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin: 0 0 15px;
+}
+
+.popular-category-area > .container > .tab-sheet > div > div > .visible:hover > h4{
+  color: #00D363;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.popular-category-area > .container > .tab-sheet > div > div > .invisible > h4{
+  color: transparent;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin: 0 0 15px;
+
+}
+/* 
+.popular-category-area > .container > .tab-sheet > div > div >a > h4:hover{
+  color: #00D363;
+  text-decoration: underline;
+  transition: 0.3s;
+} */
+
+
+.popular-category-area > .container > .tab-sheet > div > div > p{
+  color: #AAB1B7;
+  font-weight: 400;
+  margin: 0;
+}
+
+.popular-category-area > .container > .tab-sheet > div > div> p > span {
+  background-color: #E6F3FF;
+  color: #0A8CFF;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 17px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
